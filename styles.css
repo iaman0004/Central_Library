@@ -1,0 +1,169 @@
+.home-body{
+    padding: 0;
+    margin: 0;
+    background-image: url("assets/book-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* section-1 */
+.section-1{
+    /* background-color: #0e0b16; */
+    /* background-color: #233237; */
+    /* background-image: url(assets/book-sbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    color: #ffffff;
+    padding: 60px 40px;
+}
+
+td, th{
+    color: #5e1204;
+    font-size: 1.25rem;
+}
+
+div.search-book{
+    text-align: center;
+    text-align: justify;
+}
+
+div.search-book div.header h1{
+    color: #ff6347;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+}
+div.search-book input[type="text"]{
+    display: block;
+    margin: auto;
+}
+
+div.search-book form button{
+    padding: 5px 30px;
+    margin: auto;
+    display: block;
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #ff6347;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+}
+
+div.search-book form button:hover{
+    background-color: #c22b10;
+}
+
+.form-control.home-input{
+    width: 70%;
+}
+
+.search-bar-book{
+    display: inline;
+}
+
+/* login */
+div.login-mod{
+    padding: 10px 20px;
+    padding-right: 45px;
+}
+
+div.login-box{
+    background-color: #233237; 
+    -webkit-box-shadow: 1px 1px 5px #ff6347;
+    -moz-box-shadow: 1px 1px 5px #ff6347;
+    -o-box-shadow: 1px 1px 5px #ff6347;
+    box-shadow: 1px 1px 5px #ff6347;
+    padding: 40px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+div.login-box div.logo-CL img.logo-login{
+    padding: 10px 5px;
+    border-radius: 50%;
+    width: 5rem;
+}
+
+div.login-box form input.form-control{
+    display: block;
+    margin: auto;
+}
+
+div.login-box form div.form-group{
+    padding: 10px 0;
+}
+
+div.login-box form button{
+    padding: 6px 40px;
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 24px;
+    background-color: #ff6347;
+    color: #ffffff;
+}
+
+div.login-box form button:hover{
+    background-color: #c22b10;
+}
+/* section-2 */
+.section-2{
+    background-color: rgb(7, 10, 22);
+    padding: 0;
+}
+
+ul.footer-left{
+    list-style: none;
+    text-align: left;
+    padding-top: 20px;
+}
+ul.footer-left li.foot-lt{
+    display: inline;
+    padding: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+ul.footer-left li.foot-lt a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+ul.footer-left li.foot-lt a:hover{
+    color: #bba7a7;
+}
+
+ul.social{
+    list-style: none;
+    text-align: right;
+    padding-top: 10px;
+}
+
+ul.social li{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+ul.social li a{
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 10px 20px;
+}
+ul.social li a:hover{
+    color: #bba7a7;
+}
+
+#pass-modal{
+    display: block;
+    margin: auto;
+}
+
+#search{
+    width: 70%;
+}

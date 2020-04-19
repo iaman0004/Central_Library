@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background-color: #121316; */
+    background-image: url("assets/book-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px #f37949 ;
+    color: #0c0b0b;
+}
+
+td, th{
+    color: #5e1204;
+    font-size: 1.25rem;
+}
+
+input[type="text"]{
+    width: 85%;
+}
+#section-3{
+    padding: 100px 0;
+    padding-right: 50px;
+}
+.user-account{
+    text-align: center;
+    background-color: #233237;
+    padding: 50px 15px;
+    -webkit-box-shadow: 1px 1px 5px #e77325;
+    -moz-box-shadow: 1px 1px 5px #e77325;
+    -o-box-shadow: 1px 1px 5px #e77325;
+    box-shadow: 1px 1px 5px #e77325;
+}
+
+.user-id, .user-name{
+    text-align: center;
+    padding-left: 20px;
+    color: #f37949;
+}
+.user-pic{
+    text-align: center;
+    padding: 40px 0;
+    padding-left: 20px;
+    color: #f37949;
+}
+.user-pic div.user-picture{
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    background-color: teal;
+    color:#ffffff;
+    height: 120px;
+    width: 120px;
+    font-size: 5rem;
+    border: 3px solid #ffffff;
+}
+.user-pic div.user-picture h1{
+    text-align: center;
+    font-size: 4rem;
+}
+.logout{
+    text-align: center;
+    align-content: center;
+}
+.logout form{
+    padding: 10px;
+}
+
+.logout form button{
+    align-content: center;
+}
+
+.tab-content{
+    padding: 30px;
+}
+.nav-link.nav-left{
+    color: #233237;
+}
+.nav-link.nav-left:hover{
+    color: #f37949;
+    background-color: #233237;
+}
+
+.nav-link.active.nav-left{
+    color: #ffffff;
+    background-color: #f37949;
+    border-radius: 0;
+}
+
+button.btn{
+    color: #ffffff;
+    background-color: #f37949;
+    border-radius: 24px;
+    padding: 10px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    outline: 0;
+    border: 0;
+}
+button.btn:hover{
+    background-color: #ec5519;
+}
+
+.btn-issue{
+    background: transparent;
+    outline: none;
+    border: none;
+}

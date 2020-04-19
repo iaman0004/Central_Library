@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("src/library_scene.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: justify;
+}
+
+
+.faq{
+    padding: 20px 0;
+}
+
+.faq div.faq-box{
+    padding: 20px;
+    background-color: #233237;
+    color: #ffffff;
+    font-size: 1.05rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid #ff6347;
+}
+
+#heading{
+    text-align: center;
+    font-size: 5rem;
+    font-family: Algerian, sans-serif;
+    text-transform: uppercase;
+    /* color: #ff6347; */
+}
+.faq div.faq-box div.ques-box{
+    /* -webkit-box-shadow:1px 1px 5px #ff6347;
+    -moz-box-shadow:1px 1px 5px #ff6347;
+    -o-box-shadow:1px 1px 5px #ff6347;
+    box-shadow:1px 1px 7px #ff6347; */
+    border: 1px solid rgba(212, 97, 19, 0.747);
+    padding: 10px;
+}
+
+.faq div.faq-box div.question-box{
+    padding:0;
+}
+
+.faq div.faq-box div.question-box h1{
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    padding:0;
+}
+
+.faq div.faq-box div.question-box div.ans{
+    padding-left:30px;
+}
